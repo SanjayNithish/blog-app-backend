@@ -11,7 +11,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: "*",
+    origin: "https://blog-app-n8i4.onrender.com",
   })
 );
 app.use(express.json());
